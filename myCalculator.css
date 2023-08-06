@@ -31,9 +31,12 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    box-shadow: transparent
+    box-shadow: transparent;
     border-radius: 20px;
     }
+.equal{
+    width: 140px;
+}
 .space{
     height: 20px;
 }
