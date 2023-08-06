@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+}
+.container{
+    width:51%;
+    height: 460px;
+    margin:auto;
+    display: flex;
+    align-content: center;
+    border-radius: 30px;
+    background-color:  rgb(239, 89, 114);
+    box-shadow: 3px 4px 3px rgb(82, 81, 81);
+    flex-direction: column;
+}
+.my{
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    margin-top: 10px;
+    position: absolute;
+    left: 160px;
+    font-weight: bold;
+}
+.calculator{
+    width:95%;
+    background-color: rgb(252, 113, 137);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: transparent
+    border-radius: 20px;
+    }
+.space{
+    height: 20px;
+}
+span{
+    text-align: center;
+    font-family: cursive;
+
+}
+form .displayy input{
+    display:flex;
+    justify-content: flex-end;
+    margin:auto;
+    width:96%;
+    height: 40px;
+    text-align: right;
+    background-color: rgb(252, 207, 215);
+}
+form input{
+    border:0;
+    outline:0;
+    width:63px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 7px;
+    height: 36px;
+    margin-left:1px ;
+    border-radius: 7px;
+    background-color: rgb(252, 207, 215);
+    box-shadow: 2px 3px 4px rgb(253, 192, 192);
+
+}
+.contentt{
+    height: 550px;
+    border:1px solid rgb(231, 231, 213);
+    width:100%;
+}
+form .displayy{
+    
+}
+@media all and (max-width: 500px){
+    .container{
+        width:80%;
+    }
+    form input{
+        margin-right: 10px;
+}
+    
