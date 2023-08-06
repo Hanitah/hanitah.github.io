@@ -18,7 +18,7 @@ body{
 .my{
     text-align: center;
     font-size: larger;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
     position: absolute;
     left: 160px;
@@ -76,11 +76,15 @@ form input{
 form .displayy{
     
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 450px){
     .container{
         width:80%;
     }
+    .equal{
+        width: 120px;
+    }
     form input{
-        margin-right: 10px;
+        margin-right:7px;
+        width:55px;
 }
     
